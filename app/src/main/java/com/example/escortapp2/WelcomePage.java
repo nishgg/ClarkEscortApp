@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
 public class WelcomePage extends AppCompatActivity {
 
     @Override
@@ -12,16 +14,13 @@ public class WelcomePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_page);
     }
-
-    // go to login page when admin button is clicked
-    public void goToLoginPage(View view)  {
-        Intent intent = new Intent(WelcomePage.this, AdminLogin.class);
-        startActivity(intent);
-    }
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
 
     // go to user page when user button is clicked
+    /*
     public void goToUserPage(View view)  {
         Intent intent = new Intent(WelcomePage.this, UserMainInterface.class);
         startActivity(intent);
     }
+    */
 }
