@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "527212607052",
+    "firebase_url": "https://escortapp2.firebaseio.com",
+    "project_id": "escortapp2",
+    "storage_bucket": "escortapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527212607052:android:272eb2d04b009906",
+        "android_client_info": {
+          "package_name": "com.example.escortapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527212607052-so5dfo8lm6lnut17to3d6ks1j9ostn4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.escortapp2",
+            "certificate_hash": "88e1f1f329680c1be522eecd9c9797bdd92c745c"
+          }
+        },
+        {
+          "client_id": "527212607052-lde83q2q6h3e1ch2lk51c2vh4cqj74gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVYzXxKofnIx_HuHQMcR8OVBStFXPyXOI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527212607052-lde83q2q6h3e1ch2lk51c2vh4cqj74gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
