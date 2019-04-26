@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         tabLayout = (TabLayout) findViewById(R.id.tablayout_id); // get the reference of TabLayout
         viewPager = (ViewPager) findViewById(R.id.viewpager_id);
         ViewPageAdapter adapter = new ViewPageAdapter(getSupportFragmentManager());
