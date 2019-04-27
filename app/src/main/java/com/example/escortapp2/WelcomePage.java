@@ -7,6 +7,9 @@ import android.view.View;
 
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class WelcomePage extends AppCompatActivity {
 
     @Override
@@ -24,8 +27,15 @@ public class WelcomePage extends AppCompatActivity {
                 WelcomePage.this.finish();
             }
         }, 3000);
+
+        Map<String,Object> city = new HashMap<>();
+        city.put("name","woo");
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+        db.collection("Schedule").document("Van3").set(city);
     }
-    FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+
 
     // go to user page when user button is clicked
     /*
